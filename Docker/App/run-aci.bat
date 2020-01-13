@@ -1,0 +1,3 @@
+#az container create --resource-group 4sub1 --name 4sub1-app --image  4sub1.azurecr.io/samples/py-app:latest --cpu 1 --memory 1 --registry-login-server 4sub1.azurecr.io --registry-username <service-principal-ID> --registry-password <service-principal-password> --dns-name-label app1.4sub1.azurecr.io --ports 80
+
+az container create --resource-group 4sub1 --name 4sub1-app --image  4sub1.azurecr.io/samples/py-app:latest --cpu 1 --memory 1 --registry-login-server 4sub1.azurecr.io --dns-name-label app1.4sub1.azurecr.io --ports 80
