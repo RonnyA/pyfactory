@@ -1,1 +1,1 @@
-docker run ronnya/py-app
+docker run --rm ronnya/py-app

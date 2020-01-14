@@ -11,6 +11,8 @@ RUN mkdir /app
 COPY source /app
 
 WORKDIR /app
+
+RUN echo "python foo.py\n/bin/cat sample.csv" > run.sh
+
 CMD ["/bin/sh","run.sh"]
 #CMD ["python", "foo.py"]
-#CMD ["/bin/cat sample.csv"]
